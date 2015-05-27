@@ -116,6 +116,14 @@
             android:id="@+id/exodus_custom"
             android:title="@string/exodus_title" >
 
+        <!-- Interface -->
+        <dashboard-tile
+                android:id="@+id/interface_settings"
+                android:title="@string/interface_title"
+                android:fragment="com.android.exodussettings.exodus.ExodusInterface"
+                android:icon="@drawable/ic_settings_system"
+                />
+
         <!-- Themes -->
         <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
         <dashboard-tile
