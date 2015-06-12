@@ -124,6 +124,14 @@
                 android:icon="@drawable/ic_settings_system"
                 />
 
+        <!-- Hardware -->
+        <dashboard-tile
+                android:id="@+id/button_settings"
+                android:title="@string/more_device_settings_title"
+                android:fragment="com.android.settings.ButtonSettings"
+                android:icon="@drawable/ic_hardware"
+                />
+
         <!-- Themes -->
         <!-- NOTE: Intent.parseIntent looks for "categories" tag and not "category" -->
         <dashboard-tile

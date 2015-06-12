@@ -20,8 +20,14 @@ import android.provider.SearchIndexableResource;
 
 import com.android.settings.R;
 import com.android.settings.search.Ranking;
+import com.android.settings.AOSPDisplaySettings;
+import com.android.settings.AOSPSecuritySettings;
+import com.android.settings.AOSPWirelessSettings;
+import com.android.settings.WallpaperTypeSettings;
+import com.android.settings.notification.NotificationSettings;
 
 import com.android.exodussettings.RomControls;
+import com.android.exodussettings.exodus.ExodusInterface;
 
 import java.util.HashMap;
 
@@ -31,17 +37,47 @@ import java.util.HashMap;
 public final class ExodusSearchHelper {
 
     public static final int RANK_EXODUS = 22;
-    
+
     public static void AddExodusRanks(HashMap<String, Integer> sRankMap) {
-        sRankMap.put(RomControls.class.getName(), RANK_EXODUS);   
+        sRankMap.put(RomControls.class.getName(), RANK_EXODUS);
     }
-    
+
     public static void AddExodusSearches(HashMap<String, SearchIndexableResource> sResMap) {
-        sResMap.put(RomControls.class.getName(),
+        sResMap.put(AOSPDisplaySettings.class.getName(),
             new SearchIndexableResource(
-                    Ranking.getRankForClassName(RomControls.class.getName()),
-                    R.xml.rom_controls,
-                    RomControls.class.getName(),
-                    R.drawable.ic_settings_home));
+                    Ranking.getRankForClassName(AOSPDisplaySettings.class.getName()),
+                    R.xml.aosp_display_settings,
+                    AOSPDisplaySettings.class.getName(),
+                    R.drawable.ic_settings_display));
+        sResMap.put(WallpaperTypeSettings.class.getName(),
+            new SearchIndexableResource(
+                    Ranking.getRankForClassName(WallpaperTypeSettings.class.getName()),
+                    R.xml.wallpaper_settings,
+                    WallpaperTypeSettings.class.getName(),
+                    R.drawable.ic_settings_display));
+        sResMap.put(NotificationSettings.class.getName(),
+            new SearchIndexableResource(
+                    Ranking.getRankForClassName(NotificationSettings.class.getName()),
+                    R.xml.notification_settings,
+                    NotificationSettings.class.getName(),
+                    R.drawable.ic_settings_notifications));
+        sResMap.put(AOSPSecuritySettings.class.getName(),
+            new SearchIndexableResource(
+                    Ranking.getRankForClassName(AOSPSecuritySettings.class.getName()),
+                    R.xml.security_settings,
+                    AOSPSecuritySettings.class.getName(),
+                    R.drawable.ic_settings_security));
+        sResMap.put(AOSPWirelessSettings.class.getName(),
+            new SearchIndexableResource(
+                    Ranking.getRankForClassName(AOSPWirelessSettings.class.getName()),
+                    R.xml.aosp_wireless_settings,
+                    AOSPWirelessSettings.class.getName(),
+                    R.drawable.ic_settings_wireless));
+        sResMap.put(ExodusInterface.class.getName(),
+            new SearchIndexableResource(
+                    Ranking.getRankForClassName(ExodusInterface.class.getName()),
+                    R.xml.exodus_interface,
+                    ExodusInterface.class.getName(),
+                    R.drawable.ic_settings_system));
     }
 }

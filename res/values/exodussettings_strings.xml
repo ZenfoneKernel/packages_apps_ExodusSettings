@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 VanirAOSP && The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Exodus Common alert or info values -->
+    <string name="alertdialog_ok">Ok</string>
+    <string name="alertdialog_cancel">Cancel</string>
+    <string name="confirmation_msg">System UI will reboot in order to apply this changes !</string>
+
+    <!-- Exodus #RomControl Menus start -->
+    <string name="exodus_title">Exodus</string>
+    <string name="rom_controls">Rom controls</string>
+    <string name="rom_category_1">Settings</string>
+    <string name="rom_category_2">SELinux</string>
+
+	<string name="interface_title">Interface</string>
+	<string name="more_device_settings_title">Hardware</string>
+	<string name="controls_title">Controls</string>
+	<string name="userspace_title">Userspace</string>
+	<string name="home_settings_summary">Change the default launcher settings</string>
+    <string name="sensors_motors_title">Sensors &amp; motors</string>
+    <string name="wake_options_title">Device wake up</string>
+    <string name="button_settings">General button options</string>
+    <string name="hardware_keys_wake_title">Button wake options</string>
+    <string name="hardware_keys_call_options_title">Call options</string>
+
+    <!-- Exodus #RomControl LCD_Density @see cm-string.xml -->
+    <string name="lcd_density_summary">Changes your screen resolution and please note upon selection of this screen density device automatically restarts the UI</string>
+
+    <string name="exodus_display">Display</string>
+ 
+    <!-- Shortcut picker -->
+	<string name="use_custom_app_title">Use custom application</string>
+	<string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
+	<string name="group_applications">Applications</string>
+	<string name="select_custom_app_title">Select custom application</string>
+
+    <!-- Custom navigation bar targets -->
+    <string name="choose_action_double_tap_title">Choose double tap action</string>
+    <string name="choose_action_title">Choose action</string>
+    <string name="choose_action_short_title">Choose short action</string>
+    <string name="choose_action_long_title">Choose long action</string>
+    <string name="action_long_save">set as long action</string>
+    <string name="action_short">Short action</string>
+    <string name="action_long">Long action</string>
+    <string name="action_double">Double tap action</string>
+    <string name="action_icon">Custom icon</string>
+    <string name="custom_app_icon_successfully">"'s icon set successfully!"</string>
+    <string name="add_button">Add button</string>
+    <string name="category_navbar">Navigation bar</string>
+    <string name="navbar_tab_arrange">Editor</string>
+    <string name="navbar_tab_settings">Settings</string>
+    <string name="change_layouts_title"> Layout </string>
+    <string name="change_layouts_dialog_title">Select a layout to edit</string>
+    <string name="alternate_key_layouts">Number of enabled layouts</string>
+    <string name="alternate_key_layouts_summary">Enable the layout changer keys and set the number of enabled layouts</string>
+    <string name="alternate_key_layouts_enabled_summary">navigation bar layouts are currently enabled</string>
+    <string name="alternate_key_layouts_enabled_partial_summary">out of 5</string>
+    <string name="alternate_key_layouts_all_enabled_summary">All 5 navigation bar layouts are currently enabled</string>
+    <string name="alternate_menu_summary">Allow legacy menu key to replace layout switch when requested</string>
+    <string name="layouts_dialog_title">Number of enabled layouts</string>
+    <string name="enable_sidekeys">Allow legacy menu keys</string>
+    <string name="enable_sidekeys_summary">Add a space to allow the side menu keys in the navigation bar.</string>
+    <string name="navigation_bar_height_text">Bar height in portrait</string>
+    <string name="navigation_bar_height_landscape_text">Bar height in landscape</string>
+    <string name="navigation_bar_width_text">Bar width in landscape</string>
+    <string name="enable_ime_layout">Extra IME buttons</string>
+    <string name="enable_ime_layout_summary">Include a switch that changes the layout to keyboard arrows and the AOSP keyboard switcher</string>
+    <string name="enable_ime_layout_disabled">Not enough room in the layout: enable additional layouts or legacy menu keys</string>
+    <string name="customize_ime_layout_dialog_title">Customize IME key layout</string>
+    <string name="ime_layout_ime">IME switcher</string>
+    <string name="ime_layout_home">home button</string>
+    <string name="ime_layout_blank">blank space before dpad keys</string>
+    <string name="editor_instructions">Rearrange by dragging by the handle on the right. Remove by swiping.</string>
+    <string name="save">Save</string>
+    <string name="navigation_bar_longpress_timeout_text">Button longpress delay</string>
+    <string name="enable_navigation_ring_title">Navigation search assistant</string>
+    <string name="enable_navigation_ring_summary">Enable long-press on home for the google now search assistant</string>
+    <string name="navbar_use_gallary_warning">Info: please select Gallery to save image</string>
+    <string name="navring_not_available">Install google now to enable navring</string>
+
+    <!-- HFM #AdBlocker Settings -->
+    <string name="hfm_disable_ads_title">Ad blocker</string>
+    <string name="hfm_disable_ads_summary">Block advertising, malware, dangerous urls etc</string>
+    <string name="hfm_pref_screen_title">Ad blocker</string>
+    <string name="hfm_update_hosts">Update hosts file</string>
+
+    <!-- button wake titles -->
+    <string name="home_button_wake_title">Home button wake</string>
+    <string name="back_button_wake_title">Back button wake</string>
+    <string name="menu_button_wake_title">Menu button wake</string>
+    <string name="app_switch_button_wake_title">App switch button wake</string>
+    <string name="assist_button_wake_title">Assist button wake</string>
+    <string name="volume_button_wake_title">Volume button wake</string>
+
+    <!-- #SELinux toggle -->
+    <string name="selinux_toggle_title">Selinux permissive</string>
+    <string name="selinux_toggle_summary">Experimental: apps that requires permissive status</string>
+    <string name="restore_disable_on_reboot_title">Persistent enable</string>
+    <string name="persistent_selinux_enable">Force persist selinux permissive mode after the reboot</string>
+    <string name="persistent_selinux_not_allowed">Not available: selinux permissive mode is not enabled or not compatible</string>
+    <string name="rom_controls_restore_toast">user config: restoring selinux to permissive</string>
+
+    <!-- #SELinux support packages -->
+    <string name="xposed_settings_title">Xposed</string>
+    <string name="xposed_summary">Experimental: enables more customization</string>
+    <string name="viper_settings_title">Viper4Android</string>
+    <string name="viper_summary">Viper\'s audio driver for android os</string>
+
+    <!-- Additional hardware actions -->
+    <string name="hardware_keys_action_kill">Kill target</string>
+    <string name="hardware_keys_action_back">Navigate back</string>
+    <string name="hardware_keys_action_home">Navigate home</string>
+    <string name="hardware_keys_action_lastapp">Last app</string>
+    <string name="hardware_keys_action_ime">IME switcher</string>
+    <string name="hardware_keys_action_powermenu">Power menu</string>
+    <string name="hardware_keys_action_navbar">Toggle the navbar</string>
+    <string name="set_button_actions">Set action</string>
+ 
+    <!-- Hardware settings -->
+    <string name="performance_settings_title">Basic ROM performance</string>
+    <string name="performance_settings_summary">Set </string>
+    <string name="gesture_settings_summary">Device specific gesture settings</string>
+    <string name="button_navigation_summary">Customize the hardware navigation button actions</string>
+    <string name="double_tap_to_wake_summary">When the screen is off double tap to wake the device.</string>
+    <string name="button_navigation_title">Action rebinding</string>
+    <string name="button_settings">General button options</string>
+    <string name="button_settings_summary">Additional actions for volume, power, camera button, etc.</string>
+    <string name="fast_charge_title">USB fast charge</string>
+    <string name="fast_charge_summary">Draw more current to charge faster. Warning: this may damage the device.</string>
+    <string name="supported_hardware_preferences">Hardware support</string>
+    <string name="button_power_key_title">Power button</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="volume_wake_summary">Pressing either volume button will wake your device</string>
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="headset_category_title">Headset controls</string>
+    <string name="headset_connect_player_title">Launch music app</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+    <string name="button_headsethook_title">Headset in-line button</string>
+    <string name="button_headsethook_launch_voice_title">Voice controls</string>
+    <string name="button_headsethook_launch_voice_unchecked_summary">Headset button only plays/pauses media</string>
+    <string name="button_headsethook_launch_voice_checked_summary">Launches voice search/dialer with long press. Controls media with short press.</string>
+    <string name="hardware_config_reboot_dialog_title">Warning:</string>
+    <string name="hardware_config_reboot_dialog_summary">This action requires a reboot to fully take effect.</string>
+
+    <!-- low end hardware support -->
+    <string name="low_end_hardware_title">High quality graphics</string>
+    <string name="low_end_hardware_summary">Use high quality graphics at the cost of some performance. Devices with low end hardware have this off by default.</string>
+
+ 
+    <!-- Hardware button switches -->
+    <string name="key_enabled">Enable key</string>
+
+    <!-- force disable hardware keys with navbar -->
+    <string name="force_disable_hardware_keys_title">Control style</string>
+    <string name="force_disable_hardware_keys_summary">Force disable the hardware keys if the navigation bar is enabled</string>
+    <string name="enable_navigation_bar_summary">Enable customizable on screen navigation bar</string>
+
+    <!-- button tabs -->
+    <string name="home_button">Home</string>
+    <string name="back_button">Back</string>
+    <string name="app_switch_button">App switch</string>
+    <string name="assist_button">Assist</string>
+    <string name="menu_button">Menu</string>
+    <string name="enable_button_title">Enable button</string>
+    <string name="single_press_title">Single press action</string>
+    <string name="long_press_title">Long press action</string>
+    <string name="double_press_title">Double tap action</string>
+    <string name="enable_home_button">Enable home button</string>
+    <string name="enable_back_button">Enable back button</string>
+    <string name="enable_menu_button">Enable menu button</string>
+    <string name="enable_app_switch_button">Enable app switch button</string>
+    <string name="enable_assist_button">Enable assist button</string>
+
+</resources>
