@@ -12,10 +12,22 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <resources>
 
-	<color name="setting_separator">#ff484848</color>
-	<color name="extension_list_item_color">#ff999999</color>
-	<color name="dialog_color_picker_hex_title">#ffffffff</color>
+    <!-- Minimum prediction score required to pass a gesture as recognized -->
+    <integer name="min_gesture_prediction_score">2</integer>
+	
+	<!-- Overlays for NetworkTraffic to use -->
+    <integer name="maskUp">0x00000001</integer>
+    <integer name="maskDown">0x00000002</integer>
+    <integer name="maskUnit">0x00000004</integer>
+    <integer name="maskPeriod">0xFFFF0000</integer>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="interval" format="integer" />
+        <attr name="unitsLeft" format="string|reference" />
+        <attr name="unitsRight" format="string|reference" />
+    </declare-styleable>
 
 </resources>

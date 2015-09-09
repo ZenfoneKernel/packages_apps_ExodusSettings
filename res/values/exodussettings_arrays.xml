@@ -65,7 +65,24 @@
         <item>12</item>
         <item>7</item>
     </string-array>
-    
+
+    <string name="overview_clear_options_title">Enable assist button</string>
+
+    <!-- clear all overview button location -->
+    <string-array name="overview_clear_all_location_entries">
+        <item>@string/off_clear_overview</item>
+        <item>@string/clear_overview_r_0</item>
+        <item>@string/clear_overview_l_1</item>
+        <item>@string/clear_overview_s_2</item>
+    </string-array>
+
+    <string-array name="overview_clear_all_location_values" translatable="false">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- #MorphRom Arrays that holds Morph rom values -->
     <string-array name="morph_access_entries" translatable="false">
         <item>@string/morph_exodus</item>
@@ -78,7 +95,28 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    
+
+    <!-- System app remover -->
+    <string-array name="slimsizer_profile_array">
+        <item >Load Profile</item>
+        <item >Save Profile</item>
+    </string-array>
+
+    <!-- Wifi connection notifications -->
+    <string-array name="notify_changed_networks_entries" translatable="false">
+        <item>@string/notify_changed_networks_default</item>
+        <item>@string/notify_changed_networks_toast</item>
+        <item>@string/notify_changed_networks_notification</item>
+        <item>@string/notify_changed_networks_notification_sound</item>
+    </string-array>
+
+    <string-array name="notify_changed_networks_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- Screen recorder video sizes -->
     <string-array name="screen_recorder_video_sizes">
         <item>@string/screen_recorder_size_240x400</item>
@@ -116,19 +154,73 @@
         <item>@string/screen_recorder_bitrate_10000000</item>
         <item>@string/screen_recorder_bitrate_20000000</item>
     </string-array>
-    
-    <!-- Wifi connection notifications -->
-    <string-array name="notify_changed_networks_entries" translatable="false">
-        <item>@string/notify_changed_networks_default</item>
-        <item>@string/notify_changed_networks_toast</item>
-        <item>@string/notify_changed_networks_notification</item>
-        <item>@string/notify_changed_networks_notification_sound</item>
+
+	<!-- Network Traffic Display States -->
+    <string-array name="show_network_traffic_state_entries" translatable="false">
+        <item>@string/show_network_traffic_disable</item>
+        <item>@string/show_network_traffic_up</item>
+        <item>@string/show_network_traffic_down</item>
+        <item>@string/show_network_traffic_all</item>
     </string-array>
 
-    <string-array name="notify_changed_networks_values" translatable="false">
+    <string-array name="show_network_traffic_state_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+    <!-- Network Traffic Display Unit -->
+    <string-array name="show_network_traffic_unit_entries" translatable="false">
+        <item>@string/show_network_traffic_bit</item>
+        <item>@string/show_network_traffic_byte</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_unit_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Network Traffic Period -->
+    <string-array name="show_network_traffic_frequency_entries" translatable="false">
+        <item>@string/show_network_traffic_500</item>
+        <item>@string/show_network_traffic_1000</item>
+        <item>@string/show_network_traffic_1500</item>
+        <item>@string/show_network_traffic_2000</item>
+    </string-array>
+
+    <string-array name="show_network_traffic_frequency_values" translatable="false">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <!-- Battery Saver: Warning Color -->
+    <string-array name="battery_saver_warning_color_entries">
+        <item>Default Color</item>
+        <item>Custom Color</item>
+        <item>No Color</item>
+    </string-array>
+
+    <string-array name="battery_saver_warning_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Brightness Sliders -->
+    <string-array name="brightness_adjust_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="brightness_adjust_entries" translatable="false">
+        <item>@string/brightness_adjust_none</item>
+        <item>@string/brightness_adjust_gesture</item>
+        <item>@string/brightness_adjust_quicksettings</item>
+        <item>@string/brightness_adjust_both</item>
     </string-array>
 </resources>

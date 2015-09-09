@@ -43,12 +43,6 @@ public final class ExodusSearchHelper {
     }
 
     public static void AddExodusSearches(HashMap<String, SearchIndexableResource> sResMap) {
-        sResMap.put(AOSPDisplaySettings.class.getName(),
-            new SearchIndexableResource(
-                    Ranking.getRankForClassName(AOSPDisplaySettings.class.getName()),
-                    R.xml.aosp_display_settings,
-                    AOSPDisplaySettings.class.getName(),
-                    R.drawable.ic_settings_display));
         sResMap.put(WallpaperTypeSettings.class.getName(),
             new SearchIndexableResource(
                     Ranking.getRankForClassName(WallpaperTypeSettings.class.getName()),
@@ -67,12 +61,6 @@ public final class ExodusSearchHelper {
                     R.xml.security_settings,
                     AOSPSecuritySettings.class.getName(),
                     R.drawable.ic_settings_security));
-        sResMap.put(AOSPWirelessSettings.class.getName(),
-            new SearchIndexableResource(
-                    Ranking.getRankForClassName(AOSPWirelessSettings.class.getName()),
-                    R.xml.aosp_wireless_settings,
-                    AOSPWirelessSettings.class.getName(),
-                    R.drawable.ic_settings_wireless));
         sResMap.put(ExodusInterface.class.getName(),
             new SearchIndexableResource(
                     Ranking.getRankForClassName(ExodusInterface.class.getName()),

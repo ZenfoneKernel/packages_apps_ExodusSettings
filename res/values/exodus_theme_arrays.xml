@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 Exodus
+<!-- Copyright (C) 2015 Team Exodus
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -14,8 +15,17 @@
 -->
 <resources>
 
-	<color name="setting_separator">#ff484848</color>
-	<color name="extension_list_item_color">#ff999999</color>
-	<color name="dialog_color_picker_hex_title">#ffffffff</color>
+    <!-- #ColorPicker default color swatches -->
+    <!-- Use the correct number formats here. Defined as the hex value
+         preceded by 0xff (ff for the alpha channel) and set to 0 for not defined.
+         Color picker will use the default Color.VALUE for undefined entries -->
+    <integer-array name="color_picker_default_values" translatable="false">
+        <item>0</item>
+        <item>0</item>
+        <item>0xff33b5e5</item>
+        <item>0</item>
+        <item>0xff009587</item>
+        <item>0</item>
+    </integer-array>
 
 </resources>
